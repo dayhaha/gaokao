@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="section">
+  <input placeholder="这是一个可以自动聚焦的input" auto-focus/>
+</view>
+<br />
+  <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{        {plain}}"
+  bindtap="default" hover-class="other-button-hover">院校查询
+  </button>
+</view>
